@@ -20,3 +20,5 @@ mongoose.connect(DB_URI).then(()=>{
 })
 .catch((error)=>console.log(error))
 
+//Routes
+app.use('/api/user', userRouter)
